@@ -6,7 +6,7 @@ Here you will see some links and images of our process as well as the objectives
 >> https://app.tryeraser.com/workspace/6rPqBbIfbPwmZFEqFYnQ
 
 ## Our App: THERE HAS ALWAYS BEEN WOMEN IN TECH
-By Luisa, Tavani and Kim Kong 
+By Luisa, Tanavi and Kim Kong 
 
 Built a Quiz with the following functionalities:
 - Randomly known fun facts about women in tech - Progressing within the Quiz via a Button 
@@ -16,9 +16,9 @@ Built a Quiz with the following functionalities:
 We hope you enjoy!
 
 - OUR GITHUB AND LINKEDIN LINKS BELOW:
-Luisa: https://github.com/lui5a || https://www.linkedin.com/in/luisa-tenorio/
-Tavani: https://github.com/traicar || https://www.linkedin.com/in/tanavi-raicar/
-Kim: https://github.com/whatkimkong || https://www.linkedin.com/in/kim-lyons-hernandez/
+>> Luisa: https://github.com/lui5a || https://www.linkedin.com/in/luisa-tenorio/
+>> Tanavi: https://github.com/traicar || https://www.linkedin.com/in/tanavi-raicar/
+>> Kim: https://github.com/whatkimkong || https://www.linkedin.com/in/kim-lyons-hernandez/
 
 
 ##### DEVELOPER ACTIONS AND DETAILS #####
