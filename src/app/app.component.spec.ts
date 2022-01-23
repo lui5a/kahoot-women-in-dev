@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'kahoot-quiz-web'`, () => {
+  it(`should have as title 'kahoot-women-in-dev'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('kahoot-quiz-web');
+    expect(app.title).toEqual('kahoot-women-in-dev');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('kahoot-quiz-web app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('kahoot-women-in-dev app is running!');
   });
 });
