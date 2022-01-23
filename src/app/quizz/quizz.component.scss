@@ -1,0 +1,26 @@
+.profile {
+  margin: 30px;
+}
+
+.quizz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #32d663;
+  padding: 20px;
+  width: 90%;
+  height: 20vh;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 5px solid rgb(14, 97, 46);
+  border-radius: 4px;
+  box-sizing: border-box;
+}

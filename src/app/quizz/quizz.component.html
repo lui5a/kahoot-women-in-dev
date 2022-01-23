@@ -1,3 +1,28 @@
-<p>quizz works!</p>
-<p>Questions</p>
-<button type="submit">submit</button>
+
+
+
+<div class='quizz'>
+	<h3>
+		Question {{questionNumber}}
+    <!-- of {{globals.quizArray.length}} -->
+	</h3>
+  <hr/>
+	<p class='question-lbl'>{{ randomQuestion.question }}</p>
+	<p class='option-p' *ngFor="let option of randomQuestion.options; let i = index">
+		<input type="radio" id='{{i}}' name="radiogroup" [(ngModel)]="selectedAnswer" [value]="option" (change)="onSelectionChange(option)">
+		<label [attr.for]='i'>{{ option }}</label>
+    <p>
+      <p class='align-center'>
+        <!-- <button class='prev-nxt-button' (click)='previous()'>{{btnPrevLabel}}</button>
+          <button class='prev-nxt-button' (click)='next()'>{{btnNextLabel}}</button> -->
+        </p>
+        <button (click)="nextQuestion(randomQuestion)" type="submit">submit</button>
+      </div>
+
+      <hr/>
+<div class="profile">
+  {{user}}'s Score is: {{totalScore}}
+</div>
+<div>
+
+</div>
