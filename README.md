@@ -16,9 +16,9 @@ Built a Quiz with the following functionalities:
 We hope you enjoy!
 
 - OUR GITHUB AND LINKEDIN LINKS BELOW:
->> Luisa: https://github.com/lui5a || https://www.linkedin.com/in/luisa-tenorio/
->> Tanavi: https://github.com/traicar || https://www.linkedin.com/in/tanavi-raicar/
->> Kim: https://github.com/whatkimkong || https://www.linkedin.com/in/kim-lyons-hernandez/
+>> - Luisa: https://github.com/lui5a || https://www.linkedin.com/in/luisa-tenorio/
+>> - Tanavi: https://github.com/traicar || https://www.linkedin.com/in/tanavi-raicar/
+>> - Kim: https://github.com/whatkimkong || https://www.linkedin.com/in/kim-lyons-hernandez/
 
 
 ##### DEVELOPER ACTIONS AND DETAILS #####
