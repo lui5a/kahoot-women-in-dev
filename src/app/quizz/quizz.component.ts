@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quizz.component.scss'],
 })
 export class QuizzComponent implements OnInit {
-  originalQuestions = [
+  originalQuestions:Array<any>  = [
     {
       id: 1,
       question: 'According to a 2020 survey, GAFAM’s employees are female?',
@@ -34,7 +34,7 @@ export class QuizzComponent implements OnInit {
     },
     {
       id: 5,
-      question: 'What % of all Fortune 500 CIO positions are held by women',
+      question: 'What % of all Fortune 500 CIO positions are held by women?',
       options: ['17%', '25%', '50%', '7%'],
       answer: '17%',
     },
@@ -99,15 +99,15 @@ export class QuizzComponent implements OnInit {
       Math.random() * this.originalQuestions.length
     );
     this.randomQuestion = this.originalQuestions[randomIndex];
-    this.originalQuestions.splice(randomIndex, randomIndex + 1);
-    console.log(this.randomQuestion, this.originalQuestions);
+
   }
 
   onSelectionChange(option: any) {
     this.selectedAnswer = option;
   }
 
-  nextQuestion(question: any) {
+  nextQuestion() {
+
     this.originalQuestions.map((question) => {
       question.answer === this.selectedAnswer
         ? (this.totalScore += 10)
@@ -119,11 +119,7 @@ export class QuizzComponent implements OnInit {
       Math.random() * this.originalQuestions.length
     );
     this.randomQuestion = this.originalQuestions[randomIndex];
-    this.originalQuestions.splice(randomIndex, randomIndex + 1);
-    // this.remainingQuestions = this.originalQuestions.filter((eachQuestion) => {
-    //   eachQuestion.id !== question.id;
-    // });
-    console.log(this.originalQuestions);
+    this.originalQuestions.splice(randomIndex, 1);
 
   }
 }

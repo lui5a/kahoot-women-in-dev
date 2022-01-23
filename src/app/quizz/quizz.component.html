@@ -1,28 +1,29 @@
+<div class="main-wrapper">
+  <h1>WOMEN IN TECH</h1>
 
-
-
-<div class='quizz'>
-	<h3>
-		Question {{questionNumber}}
-    <!-- of {{globals.quizArray.length}} -->
-	</h3>
-  <hr/>
-	<p class='question-lbl'>{{ randomQuestion.question }}</p>
-	<p class='option-p' *ngFor="let option of randomQuestion.options; let i = index">
-		<input type="radio" id='{{i}}' name="radiogroup" [(ngModel)]="selectedAnswer" [value]="option" (change)="onSelectionChange(option)">
-		<label [attr.for]='i'>{{ option }}</label>
+  <div class='quizz' *ngIf="originalQuestions.length">
+    <h3>
+      Question {{questionNumber}}
+      <!-- of {{globals.quizArray.length}} -->
+    </h3>
+    <hr />
+    <p class='question-lbl'>{{ randomQuestion.question }}</p>
+    <p class='option-p' *ngFor="let option of randomQuestion.options; let i = index">
+      <input type="radio" id='{{i}}' name="radiogroup" [(ngModel)]="selectedAnswer" [value]="option"
+        (change)="onSelectionChange(option)">
+      <label [attr.for]='i'>{{ option }}</label>
     <p>
-      <p class='align-center'>
-        <!-- <button class='prev-nxt-button' (click)='previous()'>{{btnPrevLabel}}</button>
-          <button class='prev-nxt-button' (click)='next()'>{{btnNextLabel}}</button> -->
-        </p>
-        <button (click)="nextQuestion(randomQuestion)" type="submit">submit</button>
-      </div>
+    <p class='align-center'>
+      <button class="button glow-button" (click)="nextQuestion()" type="submit">submit</button>
 
-      <hr/>
-<div class="profile">
-  {{user}}'s Score is: {{totalScore}}
-</div>
-<div>
+    </p>
+  </div>
+
+  <div class="profile ">
+    {{user}}'s Score is: {{totalScore}}
+  </div>
+  <div>
+
+  </div>
 
 </div>
