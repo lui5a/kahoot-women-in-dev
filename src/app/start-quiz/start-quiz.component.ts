@@ -29,7 +29,7 @@ export class StartQuizComponent implements OnInit {
     const user = {
       user: userName
     };
-    localStorage.setItem('user', JSON.stringify(user));
+    localStorage.setItem('user', userName);
     if(user){
       this.router.navigateByUrl('/quizz')
     }
