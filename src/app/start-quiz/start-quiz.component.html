@@ -1,0 +1,7 @@
+<div>
+  <form  [formGroup]="userForm">
+    <label for="fname">Write a user name to play</label>
+    <input formControlName="userName" type="text" id="fname" name="firstname" placeholder="Username">
+    <button type="submit" (click)="enterQuiz()" >Enter</button>
+  </form>
+</div>
